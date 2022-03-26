@@ -10,7 +10,7 @@ function Header() {
   useEffect(() => {
     axios
       .get(
-        `https://pixabay.com/api/?key=25767824-e003a60f6373366d6a4e42be7&q=${text}`
+        `https://pixabay.com/api/?key=26208477-a292481e37a7622c3b29eb78a&q=${text}`
       )
       .then(function (res) {
         console.log("data is:", res.data.hits);
